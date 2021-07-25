@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/generic', (req, res) => {
-	/* res.sendFile(__dirname + '/public/generic.html') */
+	//res.sendFile(__dirname + '/public/generic.html')
 	res.render('generic', {
 		nombre: 'Ronaldo Torres Cáceres',
 		titulo: 'Curso de Node'
@@ -34,7 +34,7 @@ app.get('/generic', (req, res) => {
 })
 
 app.get('/elements', (req, res) => {
-	/* res.sendFile(__dirname + '/public/elements.html') */
+	//res.sendFile(__dirname + '/public/elements.html')
 	res.render('elements', {
 		nombre: 'Ronaldo Torres Cáceres',
 		titulo: 'Curso de Node'
